@@ -1,0 +1,20 @@
+.app {
+  &__header {
+    background: url(../../img/header_bg.jpg) center top no-repeat;
+    min-height: 350px;
+    @extend .d-flex;
+    @extend .align-items-center;
+  }
+  &__title {
+    color: rgb(245, 58, 45);
+    @extend .text-center;
+  }
+  &__weather {
+    @extend .py-lg-5;
+    .container {
+      @extend .d-flex;
+      @extend .align-items-center;
+      @extend .flex-column;
+    }
+  }
+}

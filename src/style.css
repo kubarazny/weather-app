@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #fff;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-default {
+    background-color: #fff;
+}
+
+.navbar-default .weather {
+    color: #4aa1f3;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #4aa1f3;
+    font-weight: 500;
+}
+
+.app__header {
+    background: url(img/header_bg.jpg) top center no-repeat;
+    min-height:350px;
+}
